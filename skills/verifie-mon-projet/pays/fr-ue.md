@@ -21,7 +21,6 @@
 - Article lu par identifiant : `LEGIARTI000032041571` (identifiant renvoyé par `lire_article`)
 - UE : `RGPD art. 6`, `règlement (UE) 2024/1689, article 50`, `DSA art. 16`
 - Lois non codifiées (LCEN, loi Informatique et libertés, loi Toubon) : utiliser l'identifiant LEGIARTI renvoyé par `lire_article`.
-- Numéro sans lettre (`Code civil 9`) : jamais par le nom, trop lent (plus de 40 s sur le serveur, délai dépassé). Identifiant LEGIARTI seulement.
 - Au plus 20 références par appel.
 
 ## Quotas

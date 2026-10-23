@@ -72,7 +72,7 @@ Ordre de lecture : MANQUANT d'abord, puis À VÉRIFIER les plus lourds de consé
 
 Pour chaque texte lu, copie mot pour mot un extrait court (une phrase, moins de 300 caractères) qui fonde le constat, et note la référence au format que `verifier_references` comprend (voir la fiche pays). **Pour tout article français lu, note son identifiant `LEGIARTI...` renvoyé par `lire_article` : c'est lui que tu vérifieras**, la recherche par identifiant est instantanée.
 
-Un article français dont le numéro n'a pas de lettre (`Code civil 9`, loi `82`, `1-1`) ne se vérifie pas par son nom : la recherche parcourt des dizaines de milliers d'articles et dépasse le délai du serveur. Lis-le en priorité pour obtenir son identifiant ; s'il reste non lu, range-le dans « Non vérifié » sans le présenter comme vérifié.
+Un article de loi non codifiée (LCEN, loi Informatique et libertés, loi sur le prix du livre) ne se retrouve pas par le nom de la loi : lis-le pour obtenir son identifiant ; s'il reste non lu, range-le dans « Non vérifié » sans le présenter comme vérifié.
 
 ## Étape 6 : vérifier toutes les références (2 appels au plus)
 
