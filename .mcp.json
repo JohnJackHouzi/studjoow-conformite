@@ -1,0 +1,6 @@
+{
+  "droit": {
+    "type": "http",
+    "url": "${user_config.adresse_serveur}"
+  }
+}

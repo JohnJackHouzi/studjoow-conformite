@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "studjoow",
+  "owner": { "name": "Studjoow", "url": "https://studjoow.com" },
+  "metadata": {
+    "description": "Outils Studjoow pour développeurs : conformité légale sourcée dans les textes officiels.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "studjoow-conformite",
+      "source": "./",
+      "description": "Vérifie la conformité légale du projet ouvert (RGPD, cookies, vente en ligne, abonnements, IA, DSA, mentions légales). Chaque obligation cite l'article en vigueur, vérifié dans Légifrance ou EUR-Lex.",
+      "category": "security",
+      "keywords": ["conformite", "rgpd", "gdpr", "cookies", "ai-act", "legifrance", "eur-lex"]
+    }
+  ]
+}

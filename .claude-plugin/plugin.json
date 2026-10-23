@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "studjoow-conformite",
+  "displayName": "Vérifie mon projet (Studjoow)",
+  "version": "0.1.0",
+  "description": "Rapport de conformité légale du projet ouvert : chaque obligation citée depuis le texte officiel en vigueur (Légifrance, EUR-Lex), vérifiée par le serveur droit.studjoow.com.",
+  "author": { "name": "Studjoow", "url": "https://studjoow.com" },
+  "homepage": "https://droit.studjoow.com",
+  "license": "MIT",
+  "keywords": ["conformite", "rgpd", "gdpr", "cookies", "cgv", "ai-act", "legifrance", "eur-lex", "droit", "compliance"],
+  "userConfig": {
+    "adresse_serveur": {
+      "type": "string",
+      "title": "Adresse du serveur Droit by Studjoow",
+      "description": "Essai gratuit : https://droit.studjoow.com/mcp (20 appels par jour). Abonnés : https://droit.studjoow.com/abonne/mcp puis /mcp pour se connecter.",
+      "default": "https://droit.studjoow.com/mcp"
+    }
+  }
+}
