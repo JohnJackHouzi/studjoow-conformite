@@ -35,6 +35,8 @@ Ici, **rien n'est cité de mémoire** :
 claude plugin marketplace add JohnJackHouzi/studjoow-conformite && claude plugin install studjoow-conformite@studjoow
 ```
 
+Le message « 1 userConfig option not yet set » peut être ignoré : sans réglage, le plugin utilise l'essai gratuit.
+
 Ou depuis Claude Code :
 
 ```
