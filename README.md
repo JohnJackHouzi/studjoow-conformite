@@ -32,13 +32,13 @@ Ici, **rien n'est cité de mémoire** :
 ## Installation (une commande)
 
 ```bash
-claude plugin marketplace add JohnJackHouzi/<depot> && claude plugin install studjoow-conformite@studjoow
+claude plugin marketplace add JohnJackHouzi/studjoow-conformite && claude plugin install studjoow-conformite@studjoow
 ```
 
 Ou depuis Claude Code :
 
 ```
-/plugin marketplace add JohnJackHouzi/<depot>
+/plugin marketplace add JohnJackHouzi/studjoow-conformite
 /plugin install studjoow-conformite@studjoow
 ```
 

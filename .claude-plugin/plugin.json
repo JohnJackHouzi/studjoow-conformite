@@ -4,10 +4,25 @@
   "displayName": "Vérifie mon projet (Studjoow)",
   "version": "0.1.0",
   "description": "Rapport de conformité légale du projet ouvert : chaque obligation citée depuis le texte officiel en vigueur (Légifrance, EUR-Lex), vérifiée par le serveur droit.studjoow.com.",
-  "author": { "name": "Studjoow", "url": "https://studjoow.com" },
+  "author": {
+    "name": "Studjoow",
+    "url": "https://studjoow.com"
+  },
   "homepage": "https://droit.studjoow.com",
+  "repository": "https://github.com/JohnJackHouzi/studjoow-conformite",
   "license": "MIT",
-  "keywords": ["conformite", "rgpd", "gdpr", "cookies", "cgv", "ai-act", "legifrance", "eur-lex", "droit", "compliance"],
+  "keywords": [
+    "conformite",
+    "rgpd",
+    "gdpr",
+    "cookies",
+    "cgv",
+    "ai-act",
+    "legifrance",
+    "eur-lex",
+    "droit",
+    "compliance"
+  ],
   "userConfig": {
     "adresse_serveur": {
       "type": "string",
